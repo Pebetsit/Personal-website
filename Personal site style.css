@@ -1,0 +1,337 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: medium;
+  font-weight: 200;
+  line-height: 1.6;
+  padding-bottom: 100px;
+  max-width: 100%;
+}
+
+#about-nav {
+  display: block;
+  text-align: center;
+  background-color: aqua;
+  position: fixed;
+  max-width: 100%;
+  padding: 0.1%;
+  height: 130px;
+  padding-top: 1px;
+  width: 100%;
+}
+
+#about-nav h1 {
+  font-size: xx-large;
+}
+
+a {
+  text-decoration: none;
+  padding: 70px;
+  font-size: larger;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  margin: 0;
+}
+
+.nav-ul li:hover a {
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+
+.profile-container {
+
+  display: block;
+  text-align: center;
+
+}
+
+.profile-container img {
+  margin-top: 145px;
+}
+
+.profile-container p {
+  margin-top: 1px;
+  text-align: justify;
+}
+
+.skills-container {
+  display: block;
+  gap: 10px;
+  margin: auto;
+  line-height: 30px;
+  text-align: justify;
+  padding-bottom: 100px;
+  padding-right: 5px;
+  margin-right: 1px;
+
+
+}
+
+.skills-container img {
+  display: block;
+  margin: auto;
+
+}
+
+.skills-container h3 {
+  margin-left: 220px;
+}
+
+.skills-container p {
+  margin-left: 1px;
+}
+
+.SDA-container {
+  display: block;
+  gap: 10px;
+  padding: 5px;
+  margin: auto;
+  line-height: 30px;
+  text-align: justify;
+
+}
+
+#SDA-image {
+  margin-left: 200px;
+}
+
+#science-div {
+
+  border-left: 3px solid black;
+  padding-left: 1px;
+}
+
+#science-div h3 {
+  margin-left: 170px;
+}
+
+#skills-header {
+  text-align: center;
+}
+
+
+.skills-div-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  padding: 20px;
+  padding-top: 1px;
+  width: 97%;
+  margin-left: 0;
+  margin-right: 5px;
+  padding-left: 0;
+  border-top: 3px solid black;
+
+
+}
+
+.skills-div-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+
+
+}
+
+#DS-description {
+  margin-left: 0;
+  padding-left: 0;
+  text-align: left;
+}
+
+footer {
+  background-color: aqua;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+
+
+
+}
+
+footer h1 {
+  text-align: center;
+
+}
+
+/* Contact page style */
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  ;
+}
+
+.contact-navigation {
+  background-color: aqua;
+}
+
+#main {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  line-height: 1.6;
+  text-align: center;
+
+}
+
+
+/* Resume style */
+
+
+#navigation a {
+  background-color: aqua;
+  padding: 5px;
+  color: black;
+  font-weight: 550;
+
+}
+
+#L1 {
+  background-color: aqua;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#L2 {
+  background-color: aqua;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#L3 {
+  background-color: aqua;
+  padding: 5px;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0.2px;
+  padding-bottom: 0;
+  margin-bottom: 0.5px;
+
+}
+
+
+
+#name-heading {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+h2 {
+  color: white;
+  background-color: black;
+  display: block;
+  width: 200px;
+  margin-left: 5px;
+  margin-bottom: 0;
+  font-size: large;
+
+}
+
+#h2-extention {
+  color: white;
+  background-color: black;
+  display: block;
+  width: 410px;
+  margin-left: 5px;
+  margin-bottom: 0;
+  padding-right: 10px;
+  ;
+
+}
+
+#line {
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid black;
+
+}
+
+#navigation a:hover {
+  color: white;
+}
+
+#about-me {
+  padding: 5px;
+}
+
+#key-skills {
+  list-style-type: disc;
+  display: block;
+  padding-left: 40px;
+  font-weight: 300;
+
+}
+
+
+
+#main-contact {
+  font-family: sans-serif;
+  font-size: small;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
+}
+
+#main-contact a:hover,
+#main-contact li:hover {
+  color: inherit;
+  background-color: inherit;
+  text-decoration: none;
+  cursor: default;
+}
+
+.education {
+  display: block;
+  list-style-type: disc;
+  padding-left: 40px;
+  font-weight: 300;
+  line-height: 2.0;
+}
+
+#work-experience {
+  display: block;
+  list-style-type: disc;
+  padding-left: 40px;
+  font-weight: 300;
+  line-height: 2.0;
+}
+
+h3 {
+  font-size: medium;
+  margin: 1px;
+  padding: 1px;
+  border: 1px;
+
+}
+
+.period {
+  display: block;
+  margin-top: 1px;
+  padding-top: auto;
+  font-size: small;
+  font-weight: bold;
+}
+
+.experience {
+  display: block;
+  list-style-type: circle;
+  padding-left: 35px;
+}
