@@ -3,102 +3,176 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal website</title>
-    <link rel="Stylesheet" href="Personal site style.css">
+    <link rel="stylesheet" href="Personal site style.css">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
 </head>
 
 <body>
     <header>
         <div id="about-nav">
             <h1 id="my-name">Pebetsi Thokwane</h1>
-            <nav>
-
+            <nav aria-label="Primary navigation">
                 <div class="nav-container">
                     <ul class="nav-ul">
-                        <li id="Personal-site"><a href="Personal site.html" target="_blank">Personal site</a></li>
-                        <li id="About"><a href="About me.html" target="_blank">About me</a></li>
-                        <li id="resume"><a href="index.html" target="_blank">My Resume</a></li>
+                        <li id="L1"><a href="index.html">Home</a></li>
+                        <li id="L2"><a href="About me.html">About</a></li>
+                        <li id="L3"><a href="Projects.html">Projects</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                        <li><a href="Personal site.html" class="active-page">Personal Site</a></li>
+                    </ul>
                 </div>
-                </ul>
             </nav>
         </div>
     </header>
 
-
-
-
-    <section>
-        <div class="profile-container">
-            <img src="images/personal image.JPG" height="350" id="profile-image" alt="profile-image">
-            <div class="profile-text">
-
-                <br>
-                <p id="description">I am a PhD student in physics with a strong analytical background and a growing
-                    passion for software development. My research has trained me to approach complex problems with rigor
-                    and creativity, and I’m currently expanding my skill set into full-stack web development. I’m
-                    learning to build scalable, user-focused applications using modern technologies while applying my
-                    data analysis experience to create meaningful, data-driven solutions. I'm excited to bridge
-                    scientific thinking with software engineering to solve real-world problems and collaborate on
-                    impactful, cross-disciplinary projects.</p>
-            </div>
-        </div>
-
-    </section>
-    <section>
-
-        <h1 id="skills-header">My skills</h1>
-
-        <div class="skills-div-container">
-            <div class="skills-container">
-                <h3>1. Design & Development</h3>
-
-                <img src="images/cat-typing.gif" id="DS-image">
-                <p id="DS-description">I first became interested in coding because I was curious about how
-                    technology works
-                    and wanted to
-                    build things myself. As a physics PhD student, I’ve developed a strong foundation in
-                    problem-solving, data analysis, and computational thinking. Now, I’m expanding that foundation
-                    into
-                    full-stack development, learning to build web and mobile applications from the ground up. My
-                    goal is
-                    to combine scientific rigor with software development to create useful, impactful, and
-                    data-informed
-                    digital tools.</p>
-
-            </div>
-
-            <div id="science-div">
-                <h3>2. Scientific data analysis</h3>
-                <div class="SDA-container">
-                    <img src="images/200.webp" id="SDA-image" height="30px" width="150px">
-
-                    <p id="SDA-description">I spent years synthesizing samples and working hands-on with
-                        experimental and
-                        simulated data
-                        characterizing materials, extracting meaningful patterns, and communicating complex results
-                        clearly.
-                        This experience sharpened my ability to tackle problems with scientific rigor, critical
-                        thinking,
-                        and analytical precision.</p>
+    <main>
+        <section>
+            <div class="profile-container">
+                <img src="images/personal image.JPG" id="profile-image" alt="Portrait of Pebetsi Thokwane">
+                <div class="profile-text">
+                    <p id="description">
+                        <strong>Pebetsi Thokwane</strong><br>
+                        <strong>Physics PhD Candidate</strong><br>
+                        <strong>Graduate Software Engineering Candidate</strong><br><br>
+                        I have a strong background in scientific research, analytical thinking, and problem solving. I am transitioning into software engineering through practical projects and continuous learning. I enjoy building useful software and learning modern development practices.
+                    </p>
                 </div>
             </div>
-        </div>
+        </section>
 
+        <section class="highlights-section">
+            <div class="highlights-card">
+                <h2>Current Focus</h2>
+                <p>I am currently strengthening my frontend development skills by building practical projects using HTML, CSS, JavaScript, Git, and GitHub. After building a solid foundation in JavaScript fundamentals, I intend to continue learning React and modern front-end development practices.</p>
+            </div>
+        </section>
 
+        <section>
+            <h1 id="skills-header">Design & Development</h1>
+            <div class="skills-div-container">
+                <div class="skills-container">
+                    <h3>Design & Development</h3>
+                    <img src="images/cat-typing.gif" id="DS-image" alt="Person typing on a laptop">
+                    <p id="DS-description">My interest in software began because I wanted to understand how digital products are built and to create useful solutions myself. I enjoy building projects to learn, improve my skills, and develop practical experience. My recent work includes a personal portfolio website, a scientific calculator, a multi-page Pine City Zoo website, a superhero website, and a private research laboratory website redesign.</p>
+                </div>
 
+                <div id="science-div">
+                    <h3>Scientific Data Analysis</h3>
+                    <div class="SDA-container">
+                        <img src="images/200.webp" id="SDA-image" alt="Scientific data analysis illustration">
+                        <p id="SDA-description">My scientific background has given me experience working with experimental data, materials characterisation results, technical writing, and complex problem solving. I have worked with research data, interpreted results carefully, and prepared clear technical reports and presentations. Python is part of my broader technical toolkit as I continue building practical software and analytical skills.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="section-card">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <h3>Scientific Calculator</h3>
+                    <p>Responsive calculator developed with HTML, CSS, and JavaScript.</p>
+                    <a class="button-link" href="#">GitHub</a>
+                    <a class="button-link secondary" href="#">Live Demo</a>
+                </article>
+                <article class="project-card">
+                    <h3>Pine City Zoo</h3>
+                    <p>Responsive multi-page zoo website built as a practical web project.</p>
+                    <a class="button-link" href="#">GitHub</a>
+                    <a class="button-link secondary" href="#">Live Demo</a>
+                </article>
+                <article class="project-card">
+                    <h3>Superhero Website</h3>
+                    <p>Responsive website project focused on layout, styling, and content structure.</p>
+                    <a class="button-link" href="#">GitHub</a>
+                    <a class="button-link secondary" href="#">Live Demo</a>
+                </article>
+                <article class="project-card">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>Responsive portfolio website developed to present my academic and technical profile.</p>
+                    <a class="button-link" href="#">GitHub</a>
+                    <a class="button-link secondary" href="#">Live Demo</a>
+                </article>
+            </div>
+        </section>
 
+        <section class="section-card">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div>
+                    <h3>Frontend</h3>
+                    <p>HTML5, CSS3, JavaScript, Responsive Web Design</p>
+                </div>
+                <div>
+                    <h3>Programming</h3>
+                    <p>Python</p>
+                </div>
+                <div>
+                    <h3>Version Control</h3>
+                    <p>Git, GitHub</p>
+                </div>
+                <div>
+                    <h3>Developer Tools</h3>
+                    <p>VS Code, Chrome DevTools</p>
+                </div>
+                <div>
+                    <h3>Scientific Software</h3>
+                    <p>Origin, PDXL, ImageJ</p>
+                </div>
+                <div>
+                    <h3>Professional Skills</h3>
+                    <p>Problem Solving, Critical Thinking, Research, Technical Writing, Communication, Adaptability, Continuous Learning</p>
+                </div>
+            </div>
+        </section>
 
+        <section class="section-card">
+            <h2>Research Highlights</h2>
+            <ul class="content-list">
+                <li>PhD thesis completed and awaiting formal submission and examination</li>
+                <li>Five research publications</li>
+                <li>Renewable energy materials research</li>
+                <li>Scientific writing and conference presentations</li>
+                <li>Materials characterisation and technical reporting</li>
+            </ul>
+        </section>
 
-    </section>
+        <section class="section-card">
+            <h2>Laboratory Experience</h2>
+            <ul class="content-list">
+                <li>Rigaku SmartLab XRD</li>
+                <li>PerkinElmer Lambda 1050 UV-Visible</li>
+                <li>Horiba Fluorolog-3</li>
+                <li>Horiba XploRA PLUS Raman</li>
+                <li>Shimadzu IRTracer-100 FTIR</li>
+                <li>Risø DA-20 Thermoluminescence</li>
+                <li>Thermogravimetric Analysis</li>
+                <li>SEM sample preparation and TEM</li>
+                <li>Experimental design, materials synthesis, scientific reporting, and laboratory safety</li>
+            </ul>
+        </section>
 
+        <section class="section-card">
+            <h2>Career Objective</h2>
+            <p>I am looking for graduate software engineering opportunities where I can combine my Physics background, research experience, and software development skills while continuing to learn from experienced engineers.</p>
+        </section>
+
+        <section class="section-card">
+            <h2>Publications</h2>
+            <p>Author or co-author of five research publications in renewable energy materials, nanomaterials, and computational materials science.</p>
+            <a class="button-link" href="Publications.html">View Publications</a>
+        </section>
+    </main>
 
     <footer>
         <h1>Get In Touch</h1>
-
         <ul class="nav-ul">
-            <li><a href="https://www.linkedin.com/in/pebetsi-thokwane-988b48244" target="_blank">LinkedIn</a></li>
-            <li><a href="Contact me.html" target="_blank">Contact</a></li>
+            <li><a href="https://www.linkedin.com/in/pebetsi-thokwane-988b48244" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="Contact.html">Contact</a></li>
         </ul>
     </footer>
     <script src="practice.js"></script>
